@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html, body {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.header {
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    
+}
+
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+   font-size: 25px;
+   text-transform: uppercase;
+}
+.header__nav li + li {
+    margin-left: 40px;
+}
+
+.header__nav ul {
+    display: flex;
+    list-style-type: none;    
+}
+.header__nav a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none; 
+    font-size: 20px;
+    
+    
+}
+.header__nav a:hover {
+    color: #703764;
+    
+}
+
+/* MAIN */
+
+
+/* WELCOME */
+.welcome {
+    min-height: 600px;
+    height: 100vh;
+    padding: 105px 0;
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+
+    background-image: url("../img/galaxy-nature-aesthetic-background-starry-sky-mountain-remixed-media.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.welcome__heading {
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+
+
+}
+.welcome__links {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 250px;
+}
+
+
+/* ABOUT*/
+
+
+.about {
+    min-height: 600px;
+    height: 100vh;
+    padding: 105px 0;
+    
+
+    
+
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+    color: white;
+    text-align: center;
+
+    background-image: url("../img/scenic-mountains-landscape-after-rain-carpathians-ukraine.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.title {
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.title-bom {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 50px
+}
+
+
+
+.main__nav li {
+    font-size: 16px;
+    text-decoration: none;
+    color: white; 
+    font-size: 22px;
+    line-height: 35px;   
+}
+
+.main__nav li:hover {
+    color: #703764;
+}
+.main__nav li + li {
+    margin-top: 30px;
+} 
+
+
+/* LINKIN */
+
+
+.linkin {
+    min-height: 600px;
+    height: 100vh;
+    padding: 105px 0;
+    
+    flex-direction: column;
+    
+
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+    color: white;
+    text-align: center;
+
+    background-image: url("../img/168507-oblako-atmosfera-ekoregion-gora-okruzhayushchaya_sreda-3840x2160.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.decoration {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 100px;
+    
+}
+
+.decoration__bom {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+    transition: 0.2s; 
+    color: white;
+    text-decoration: none; 
+}
+
+.decoration__bom p:hover {
+    color: #703764;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    
+}
+
+.gallery-items {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    
+}
+
+.gallery-items img {
+    transition: all 0.1s ease-in-out;
+    width: 550px; 
+    height: 350px; 
+    margin: 5px;
+    
+    
+}
+
+.gallery-items img:hover {
+    transform: scale(1.1);
+}
+
+
+/* LINKIN */
+
+
+.arcane {
+    min-height: 600px;
+    height: 100vh;
+    padding: 105px 0;
+    
+    flex-direction: column;
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+    color: white;
+    text-align: center;
+    background-image: url("../img/snowy-mountain-cloudy-sky.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+.feedbom {
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 100px;
+    
+
+}
+.font__bombi { 
+    font-size: 16px;
+    text-decoration: none;
+    color: white; 
+    font-size: 22px;
+    line-height: 35px; 
+
+}
+.font__bombi li:hover {
+    color: #807d90;
+
+}
+
+.novem {
+    font-size: 23px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: left;
+    transition: 0.2s; 
+    color: white;
+    text-decoration: none; 
+}
+
+.novem p a:hover {
+    color: #703764;
+}
+
+.viz {
+    min-height: 600px;
+    height: 100vh;
+    padding: 105px 0;
+    
+    flex-direction: column;
+    
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+    color: white;
+    text-align: center;
+    background-image: url("../img/snow-covered-mountains-winter.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.viz__kon {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+/* LINKIN */
+
+
+.signup-form {
+    width: 420px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.signup-form h1 {
+    margin-top: 100px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.signup-form .txtb {
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
+    color: #fff;
+    
+}
+
+.txtb {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border:3px solid rgb(255, 255, 255, .2);
+    border-radius: 40px;
+    text-align: center;
+   
+}
+
+.signup-form .btn {
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    border:3px solid rgb(255, 255, 255, .2);
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    margin-top: 10px;
+}
+
+/* FOOTER*/
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 0%;
+    background-color: #28282a;
+}
+
+.footer-top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+
+.footer-top-container .left-side ul {
+    display: flex;
+    
+}
+
+.footer-top-container .left-side li {
+    margin: 0rem 2rem;
+    
+}
+.footer-top-container .left-side ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 14px;
+}
+
+.footer-top-container .left-side ul li a:hover {
+    color: #703764;
+}
+
+
+.footer-top-container .right-side ul {
+    display: flex;
+    
+}
+
+.footer-top-container .right-side li {
+    margin: 0rem 2rem;
+    
+    
+}
+.footer-top-container .right-side ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+    font-size: 14px;
+    
+}
+
+.footer-top-container .right-side ul li a:hover {
+    color: #703764;
+}
+
